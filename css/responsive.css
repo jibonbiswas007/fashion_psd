@@ -1,0 +1,169 @@
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.welcome-area .triangle::before {
+  width: 80px;
+}
+.subscribe-form {
+  padding: 35px 0;
+}
+
+
+
+
+
+}
+    
+
+/* tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+.container {
+  max-width: 100%;
+}
+.main-menu {
+  text-align: center;
+}
+.main-menu ul li a {
+  padding: 20px 0 5px;
+}
+.header-right ul {
+  text-align: center;
+}
+.header-right ul li a {
+  padding: 15px 0;
+}
+.slider-text {
+  width: 50%;
+}
+.slider-text h2 {
+  font-size: 45px;
+}
+.slider-text h2 .big-text {
+  font-size: 65px;
+}
+.subscribe-title {
+  margin-bottom: 20px;
+}
+.footer-widget::before {
+  height: 200px;
+}
+.col-lg-3:nth-child(2) .footer-widget::before {
+  display: none;
+}
+
+
+
+}
+
+    
+    
+/* Small Mobile :320px. */
+
+@media (max-width: 767px) {
+.slicknav_menu {
+  display: block;
+}
+.nivoSlider {
+  min-height: 380px;
+}
+.header-right {
+  margin-top: 41px;
+}
+.nivoSlider {
+  height: 200px;
+}
+.slider-text h2 {
+  font-size: 30px;
+}
+.slider-text h2 .big-text {
+  font-size: 50px;
+}
+.slider-text {
+  bottom: 30px;
+  top: auto;
+  transform: translateY(0px);
+  width: auto;
+}
+.welcome-area .section-title h2 {
+  display: block;
+}
+.welcome-area .triangle {
+  padding: 0;
+}
+.welcome-area .triangle {
+  display: block;
+  padding: 0;
+  text-align: center;
+  width: 280px;
+}
+.welcome-area .triangle::before {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonial-area {
+  border: 2px solid #fcfbf6;
+  padding: 30px;
+}
+.subscribe-form {
+  padding: 35px 0;
+}
+.subscribe-title img {
+  display: inline-block;
+  width: 30px;
+}
+.subscribe-title h3 {
+  font-size: 14px;
+  margin: 0 0 0 8px;
+}
+.subscribe-title {
+  margin-bottom: 20px;
+}
+.email-subscribe input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.footer-widget {
+  padding-left: 0;
+}
+.footer-widget::before {
+  display: none;
+}
+.product-tab ul li a {
+  padding: 5px 15px;
+}
+
+
+
+
+
+
+
+
+}
+    
+    
+    
+/* Large Mobile :480px. */
+@media (min-width: 480px) and (max-width: 767px) {
+.container {
+  max-width: 100%;
+}
+.footer-widget::before {
+  display: block;
+}
+.footer-widget::before {
+  height: 200px;
+}
+.col-lg-3:nth-child(2) .footer-widget::before {
+  display: none;
+}
+
+
+
+
+
+
+
+
+}
